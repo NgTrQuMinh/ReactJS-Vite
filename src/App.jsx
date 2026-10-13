@@ -4,6 +4,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+// Component = HTML + CSS + JS
+const MyComponent = () => {
+  return (
+    <div>Ng Tr Quang Minh</div> // tag
+  )
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +24,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
+          <MyComponent /> 
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
